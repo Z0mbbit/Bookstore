@@ -1,0 +1,113 @@
+.book-entry a{
+    font-size: 40px;
+    text-decoration: None;
+    font-weight: 700;
+    margin: 0;
+    color: violet; 
+}
+.book-entry a:hover{
+    color: blueviolet;
+}
+.book-entry{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+hr{
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+nav{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgb(250, 165, 250);
+    padding: 20px 0px 20px 0px;
+}
+nav a{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    text-decoration: None;
+    transition: all 1s ease-out;
+}
+nav a:hover{
+    color: blueviolet;
+}
+.detail-view{
+    width: 50%;
+    margin: 0 auto;
+}
+.detail-view h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.detail-menu{
+    margin-top: 40px;
+}
+.detail-menu a{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 400;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: None;
+}
+.detail-menu a:hover{
+    background-color: violet;
+}
+.button{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 400;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: None;
+    border: None;
+}
+header{
+    background-color: blueviolet;
+    font-weight: 700;
+    margin-bottom: 50px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: white;
+}
+header a{
+    color: white;
+    text-decoration: None;
+}
+header a:hover{
+    color:violet;
+}
+form{
+    margin: 50px 400px 50px 400px;
+}
+
+form div{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+form div label{
+    display: inline-block;
+    width: 50%;
+}
+form div textarea{
+    width: 50%;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+}
+form div input{
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid violet;
+}
